@@ -1,0 +1,51 @@
+Les deux premiers dés sont lancés
+    On analyse les valeurs des deux dés
+    On calcule la somme des deux dés
+
+
+Le joueur annonce la couleur rouge
+
+Cas 1 - La somme des 3 dés est supérieure à 11
+    Si la somme des dés est supérieure à 11
+        Alors le joueur a gagné
+    Sinon, c'est que la somme est inférieure à 11
+        Donc, le joueur a perdu #grosLooser
+
+Cas 2 - Les deux premiers dés ont pour valeur 1
+    Si le troisième dé a une valeur de 1
+        Alors le joueur a gagné
+    Sinon, c'est que le troisième dé est différent de 1
+        Donc, le joueur a perdu 
+
+
+Le joueur annonce la couleur noire
+
+Cas 1 - La somme des 3 dés est inférieure à 11
+    Si la somme des dés est inférieure à 11
+        Alors le joueur a gagné
+    Sinon, c'est que la somme est supérieure à 11
+        Donc, le joueur a perdu #grosLooser
+
+Cas 2 - Les deux premiers dés ont pour valeur 6
+    Si le troisième dé a une valeur de 6
+        Alors le joueur a gagné
+    Sinon, c'est que le troisième dé est différent de 6
+        Donc, le joueur a perdu
+
+
+Le troisième dé est lancé
+On analyse la valeur du dé
+On calcule la somme des trois dés
+On peut enfin déterminer si le joueur a gagné, ou non 
+
+
+POINT DE VUE 2
+Si la somme des trois dés est supérieure à 11
+    Alors, la couleur gagnante est le rouge
+    Sinon, la couleur gagnante est le noir
+
+Si la valeur des trois dés est 1
+    Alors, la couleur gagnante est le rouge
+
+Si la valeur des trois dés est 6
+    Alors, la couleur gagnante est le noir
